@@ -295,6 +295,23 @@ footer {
   flex-wrap: wrap;
 }
 
+.artikel {
+    background-color: rgba(29, 28, 28, 0.2);
+  backdrop-filter: blur(12px);
+  margin-top: 80px;
+  margin-bottom: 90px;
+  padding: 40px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px;
+  color: white;
+  
+}
+
+.artikel img {
+    width: 100%;
+}
+
 @media (max-width: 768px) {
   .gallery {
     grid-template-columns: repeat(1, 1fr);
