@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <h2>Portofolio</h2>
+            <button onclick="toggleMenu()">☰</button>
+            <nav id="menu">
+                <a href="Home.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Contact.html">Contact</a>
+                <a href="Artikel.html">Article</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Home -->
+    <section id="home" class="home-section">
+        <div class="content">
+            <img src="img/gambar-2.jpeg" width="250" alt="Foto Profil">
+            <h1>Andi Angga Krismona P.</h1>
+             <p>Web Porgrammer</p>
+            </div>
+            <div class="container">
+                <h1>Overview</h1>
+                <h2>Hi, saya adalah web developer. Saat ini saya sedang belajar HTML.</h2>
+                <div class="wraper">
+                <div class="ability">
+                    <h3>Skills</h3>
+                    <ul type="none">
+                        <li>Html</li>
+                        <li>CSS</li>
+                        <li>Javascript</li>
+                        <li>Ngopi</li>
+                        <li>Bengong</li>
+                    </ul>
+                </div>
+                <div class="ability">
+                    <h3>Experience</h3>
+                    <ul type="none">
+                        <li>Memasak</li>
+                        <li>Memancing</li>
+                        <li>Mencuci</li>
+                        <li>Menggambar</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; <span id="year"></span> Portofolio Andi Angga Krismona P.</p>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('tampil');
+        }
+        </script>
+    
+</body>
+
+</html>
